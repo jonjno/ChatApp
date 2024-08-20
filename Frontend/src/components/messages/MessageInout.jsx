@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { IoMdSend } from "react-icons/io";
-import useSendMessages from "../../hooks/useSendMessages";
+import useSendMessages from "../../hooks/useSendMessages.js";
 function MessageInout() {
   const [message, setMessage] = useState("");
   const { loading, sendMessage } = useSendMessages();

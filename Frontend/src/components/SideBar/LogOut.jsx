@@ -1,6 +1,6 @@
 // import React from 'react'
 import { CiLogout } from "react-icons/ci";
-import useLogout from "../../hooks/useLogout";
+import useLogout from "../../hooks/useLogout.js";
 
 const LogOut = () => {
   const { loading, logout } = useLogout();
